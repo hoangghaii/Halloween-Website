@@ -1,0 +1,16 @@
+{
+  "name": "mockup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hhaai",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass --no-source-map --watch assets/scss/styles.scss assets/css/styles.css",
+    "server": "live-server",
+    "start": "yarn server & yarn sass"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.42.1"
+  }
+}
